@@ -5,5 +5,8 @@ float64 angular_kp
 float64 angular_ki
 float64 angular_kd
 ---
-float64 position_error
-float64 heading_error
+float64[] x_errors
+float64[] y_errors
+float64[] heading_errors
+float64[] lin_speed_adjs 
+float64[] ang_speed_adjs
